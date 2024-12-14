@@ -1,0 +1,16 @@
+Part 1: 6 rows, 1995 tokens - saved to outline_retreival/split/law_part_1.txt
+Part 2: 10 rows, 1927 tokens - saved to outline_retreival/split/law_part_2.txt
+Part 3: 13 rows, 2038 tokens - saved to outline_retreival/split/law_part_3.txt
+Part 4: 16 rows, 2022 tokens - saved to outline_retreival/split/law_part_4.txt
+Part 5: 19 rows, 2027 tokens - saved to outline_retreival/split/law_part_5.txt
+Part 6: 21 rows, 1976 tokens - saved to outline_retreival/split/law_part_6.txt
+Part 7: 24 rows, 2007 tokens - saved to outline_retreival/split/law_part_7.txt
+Part 8: 27 rows, 2035 tokens - saved to outline_retreival/split/law_part_8.txt
+Part 9: 30 rows, 1983 tokens - saved to outline_retreival/split/law_part_9.txt
+Part 10: 37 rows, 2003 tokens - saved to outline_retreival/split/law_part_10.txt
+Part 11: 46 rows, 2012 tokens - saved to outline_retreival/split/law_part_11.txt
+Part 12: 44 rows, 1675 tokens - saved to outline_retreival/split/law_part_12.txt
+
+Total parts: 12
+Total tokens: 23700
+Average tokens per part: 1975.00

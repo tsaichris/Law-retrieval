@@ -27,14 +27,14 @@ def process_text_file(input_text):
 if __name__ == "__main__":
     # Read the input file
     try:
-        with open('../outline_retreival/section.txt', 'r', encoding='utf-8') as file:
+        with open('outline_retreival/section.txt', 'r', encoding='utf-8') as file:
             input_text = file.read()
             
         # Process the text
         result = process_text_file(input_text)
         
         # Write the result 
-        with open('section.txt', 'w', encoding='utf-8') as file:
+        with open('outline_retreival/section_reArranged.txt', 'w', encoding='utf-8') as file:
             file.write(result)
             
         print("Processing completed successfully!")

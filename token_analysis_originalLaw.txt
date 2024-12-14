@@ -1,0 +1,45 @@
+Instruction token count: 117
+
+=== Token Distribution Analysis ===
+
+Total entries processed: 21198
+
+Token count statistics (including instruction):
+Maximum: 3017
+Median: 200
+Average: 240.08
+Minimum: 122
+
+Distribution by ranges:
+Range 0-499: 20269 entries (95.62%)
+Range 500-999: 851 entries (4.01%)
+Range 1000-1499: 64 entries (0.30%)
+Range 1500-1999: 10 entries (0.05%)
+Range 2000-2499: 3 entries (0.01%)
+Range 3000-3499: 1 entries (0.00%) 
+
+Entry with maximum tokens (3017):
+File: 所得稅法.txt
+Preview: 1   個人之綜合所得總額，以其全年下列各類所得合併計算之： 第一類：營利所得：公司股東所獲分配之股利、合作社社員所獲分配之盈餘、其他法人出資者所獲分配之盈餘、合夥組織營利事業之合夥人每年度應分配之盈餘、獨資資本主每年自其獨資經營事業所得之盈餘及個人一時貿易之盈餘皆屬之。 合夥人應分配之盈餘或獨資資本主經營獨資事業所得之盈餘，應按核定之營利事業所得額計算之。 第二類：執行業務所得：凡執行業務者之業...
+
+Breakdown:
+Instruction tokens: 117
+Max text-only tokens: 2900
+
+
+total_batches(batch size = 50) = 21198 // 50 = 423.96 ==424
+
+Eembedding option1:
+max_length = 512  # Cover 95% of cases perfectly
+truncation = True # Accept some information loss for longer texts
+
+
+Eembedding option2:
+chunk_size = 512
+stride = 256
+batch_size = 50   # For initial loading
+secondary_batch = 3  # For chunks of long documents
+then:
+# Process normally if length <= 512
+# For longer documents:
+# 3017 (max) would create about 6 chunks with this setup

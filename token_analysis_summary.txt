@@ -1,0 +1,28 @@
+Instruction token count: 117
+
+=== Token Distribution Analysis ===
+
+Total entries processed: 1970
+
+Token count statistics (including instruction):
+Maximum: 3087
+Median: 393
+Average: 480.91
+Minimum: 151
+
+Distribution by ranges:
+Range 0-499: 1285 entries (65.23%)
+Range 500-999: 565 entries (28.68%)
+Range 1000-1499: 98 entries (4.97%)
+Range 1500-1999: 14 entries (0.71%)
+Range 2000-2499: 4 entries (0.20%)
+Range 2500-2999: 2 entries (0.10%)
+Range 3000-3499: 2 entries (0.10%)
+
+Entry with maximum tokens (3087):
+File: 民事訴訟法 規定民事案件的訴訟程序 保障民事糾紛的公平解決 第一審程序 通常訴訟程序 證據 第 一 目 通則.txt
+Preview: 規定民事案件的訴訟程序, 保障民事糾紛的公平解決, 第一審程序, 通常訴訟程序, 證據, 第 一 目  通則, 第 277 條, 舉證責任分配 有利事實舉證 公平原則例外, 第 278 條, 顯著事實免證 職務知悉事實 辯論機會保障, 第 279 條, 自認效力規定 附加限制認定 自認撤銷要件, 第 280 條, 擬制自認規定 不知不記憶認定 缺席擬制自認, 第 281 條, 推定事實效力 反證舉...
+
+Breakdown:
+Instruction tokens: 117
+Max text-only tokens: 2970

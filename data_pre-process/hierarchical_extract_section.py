@@ -36,7 +36,8 @@ def process_law_files(directory_path):
                 law_dict[law_name].append(part)
     
     # Create output file
-    output_filename = 'combined_law_names.txt'
+    output_filename = '../outline_retreival/section.txt
+    '
     with open(os.path.join(directory_path, output_filename), 'w', encoding='utf-8') as f:
         # Write each law name and its combined parts
         for law_name, parts in law_dict.items():
@@ -49,5 +50,5 @@ def process_law_files(directory_path):
 # Example usage
 if __name__ == '__main__':
     # Replace with your directory path
-    directory_path = 'lawData/json_DFS'  # Current directory
+    directory_path = '../lawData/json_DFS'  # Current directory
     process_law_files(directory_path)

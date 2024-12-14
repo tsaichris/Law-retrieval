@@ -107,7 +107,7 @@ def process_directory(input_dir):
 # Usage example
 if __name__ == "__main__":
     # Replace with your directory path
-    directory_path = 'law_unpress/processed_json'
+    directory_path = '../lawData/law_unpress/processed_json'
     process_directory(directory_path)
 
 

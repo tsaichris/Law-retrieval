@@ -32,7 +32,7 @@ def update_law_files():
     summary_map = {item['名稱']: item['內容'] for item in summary_data}
 
     # Get all JSON files in the unpress directory
-    allLaw_json = 'law_unpress/processed_json'
+    allLaw_json = '../lawData/law_unpress/processed_json'
     json_files = [f for f in os.listdir(allLaw_json) if f.endswith('.json')]
 
     # Process each law file

@@ -76,8 +76,8 @@ class TextProcessor:
         print(f"\nProcessed {file_count} files")
 
 def main():
-    input_folder = "lawData/json_DFS"  # Folder containing original text files
-    output_folder = "lawData/json_DFS_index"  # Folder for processed output files
+    input_folder = "../lawData/json_DFS"  # Folder containing original text files
+    output_folder = "../lawData/json_DFS_index"  # Folder for processed output files
     
     print(f"Input folder: {input_folder}")
     print(f"Output folder: {output_folder}")

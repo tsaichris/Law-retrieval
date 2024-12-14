@@ -174,5 +174,5 @@ def hierarchical_chunk3(raw_text):
 
 if __name__ == "__main__":
     # Specify your input folder path
-    input_folder = "law_unpress"  # or use absolute path if needed
+    input_folder = "../lawData/law_unpress"  # or use absolute path if needed
     process_rtf_files(input_folder)

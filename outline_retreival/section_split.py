@@ -70,7 +70,7 @@ def write_parts_to_files(parts: List[List[str]], base_filename: str = 'law_part'
 def main():
     try:
         # Read the input file
-        with open('section.txt', 'r', encoding='utf-8') as file:
+        with open('../outline_retreival/section.txt', 'r', encoding='utf-8') as file:
             text = file.read()
         
         # Split the text into parts

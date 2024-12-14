@@ -212,9 +212,9 @@ class LawProcessor:
 
 def main():
     # Configure input and output folders
-    input_folder = "lawData/law_unpress/processed_json"  # Change this to your input folder path
-    output_folder = "lawData/json_DFS"  # Change this to your output folder path
-    txt_folder = "lawData/law_KeywordExtracted"  # Folder containing the .txt files
+    input_folder = "../lawData/law_unpress/processed_json"  # Change this to your input folder path
+    output_folder = "../lawData/json_DFS"  # Change this to your output folder path
+    txt_folder = "../lawData/law_KeywordExtracted"  # Folder containing the .txt files
     
     processor = LawProcessor(input_folder, output_folder, txt_folder)
     processor.process_files()
